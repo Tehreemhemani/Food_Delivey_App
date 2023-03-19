@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">682034740701-039rge60kcuvogf3ppeehisto5cqcr2b.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">682034740701</string>
+    <string name="google_api_key" translatable="false">AIzaSyCNKRgvl30Eca7cwmj_BoN2R3D8f3UOR_Y</string>
+    <string name="google_app_id" translatable="false">1:682034740701:android:892b7ff2692b0183410a34</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCNKRgvl30Eca7cwmj_BoN2R3D8f3UOR_Y</string>
+    <string name="google_storage_bucket" translatable="false">xpressfood-20a32.appspot.com</string>
+    <string name="project_id" translatable="false">xpressfood-20a32</string>
+</resources>

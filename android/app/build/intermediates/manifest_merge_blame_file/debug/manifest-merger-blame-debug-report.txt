@@ -1,0 +1,318 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fooddeliveryapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Tehreem\.gradle\caches\transforms-3\67fca2316732a289c0cd51449b5c53bf\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] C:\Users\Tehreem\.gradle\caches\transforms-3\67fca2316732a289c0cd51449b5c53bf\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+14-->[:react-native-firebase_auth] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+15-->[:react-native-firebase_auth] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\a26ddc1ae9e1309c52963762ba5f6754\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+16-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\a26ddc1ae9e1309c52963762ba5f6754\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+17
+18    <application
+18-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:6:5-25:19
+19        android:name="com.fooddeliveryapp.MainApplication"
+19-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.6.0] C:\Users\Tehreem\.gradle\caches\transforms-3\6732c1db02659846cadb0119cd065d10\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:10:7-52
+26        android:supportsRtl="true"
+26-->[com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\682ced881a64e7b72e01e5d83e0d7b12\transformed\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:28:18-44
+27        android:theme="@style/AppTheme"
+27-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:12:7-38
+28        android:usesCleartextTraffic="true" >
+28-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\debug\AndroidManifest.xml:8:9-44
+29        <activity
+29-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\debug\AndroidManifest.xml:11:9-111
+30            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+30-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\debug\AndroidManifest.xml:11:19-83
+31            android:exported="false" />
+31-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\debug\AndroidManifest.xml:11:84-108
+32        <activity
+32-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:13:7-24:18
+33            android:name="com.fooddeliveryapp.MainActivity"
+33-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:14:9-37
+34            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+34-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:16:9-118
+35            android:exported="true"
+35-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:19:9-32
+36            android:label="@string/app_name"
+36-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:15:9-41
+37            android:launchMode="singleTask"
+37-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:17:9-40
+38            android:windowSoftInputMode="adjustResize" >
+38-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:18:9-51
+39            <intent-filter>
+39-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:20:9-23:25
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:21:13-65
+40-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:21:21-62
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:22:13-73
+42-->D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\android\app\src\main\AndroidManifest.xml:22:23-70
+43            </intent-filter>
+44        </activity>
+45
+46        <meta-data
+46-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-13:36
+47            android:name="app_data_collection_default_enabled"
+47-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-63
+48            android:value="true" />
+48-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-33
+49
+50        <service
+50-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:19
+51            android:name="com.google.firebase.components.ComponentDiscoveryService"
+51-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-84
+52            android:directBootAware="true"
+52-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-43
+53            android:exported="false" >
+53-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+54            <meta-data
+54-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-22:85
+55                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+55-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-120
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+58                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+58-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+60        </service>
+61
+62        <provider
+62-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-29:38
+63            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+63-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-88
+64            android:authorities="com.fooddeliveryapp.reactnativefirebaseappinitprovider"
+64-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-86
+65            android:exported="false"
+65-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+66            android:initOrder="99" />
+66-->[:react-native-firebase_app] D:\WokingFolder\React Native\CLI PROJECTS\FoodDeliveryApp\node_modules\@react-native-firebase\app\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-35
+67
+68        <activity
+68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+69            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+69-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+83                    android:scheme="genericidp" />
+83-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+87            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+92            <intent-filter>
+92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+93-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+97
+98                <data
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+99                    android:host="firebase.auth"
+99-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+100                    android:path="/"
+100-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+101                    android:scheme="recaptcha" />
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+105            android:name="com.facebook.FacebookActivity"
+105-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+106            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+106-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+107            android:theme="@style/com_facebook_activity_theme" />
+107-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+108        <activity android:name="com.facebook.CustomTabMainActivity" />
+108-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+108-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+109        <activity
+109-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+110            android:name="com.facebook.CustomTabActivity"
+110-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+111            android:exported="true" >
+111-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+112            <intent-filter>
+112-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\4da598aedfc343753cf3c1c5f5e28e7e\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+113                <action android:name="android.intent.action.VIEW" />
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+113-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+115-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+116                <category android:name="android.intent.category.BROWSABLE" />
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+116-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+117
+118                <data
+118-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+119                    android:host="cct.com.fooddeliveryapp"
+119-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+120                    android:scheme="fbconnect" />
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\e0dd9a4553d457589aff84f9a30b7b10\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+121            </intent-filter>
+122        </activity>
+123
+124        <provider
+124-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Tehreem\.gradle\caches\transforms-3\3ec9f22e3c583ef59afe732448425957\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+125            android:name="com.google.firebase.provider.FirebaseInitProvider"
+125-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Tehreem\.gradle\caches\transforms-3\3ec9f22e3c583ef59afe732448425957\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+126            android:authorities="com.fooddeliveryapp.firebaseinitprovider"
+126-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Tehreem\.gradle\caches\transforms-3\3ec9f22e3c583ef59afe732448425957\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Tehreem\.gradle\caches\transforms-3\3ec9f22e3c583ef59afe732448425957\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Tehreem\.gradle\caches\transforms-3\3ec9f22e3c583ef59afe732448425957\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:20.2.0] C:\Users\Tehreem\.gradle\caches\transforms-3\3ec9f22e3c583ef59afe732448425957\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+130        <!--
+131         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+132         with the application context. This config is merged in with the host app's manifest,
+133         but there can only be one provider with the same authority activated at any given
+134         point; so if the end user has two or more different apps that use Facebook SDK, only the
+135         first one will be able to use the provider. To work around this problem, we use the
+136         following placeholder in the authority to identify each host application as if it was
+137         a completely different provider.
+138        -->
+139        <provider
+139-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+140            android:name="com.facebook.internal.FacebookInitProvider"
+140-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+141            android:authorities="com.fooddeliveryapp.FacebookInitProvider"
+141-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+142            android:exported="false" />
+142-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+143
+144        <receiver
+144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+145            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+146            android:exported="false" >
+146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+147            <intent-filter>
+147-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+148                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+148-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+148-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Tehreem\.gradle\caches\transforms-3\efbdb86ff0a4a8dfadaf1da3cc273d04\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+149            </intent-filter>
+150        </receiver>
+151
+152        <activity
+152-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+153            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+153-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+154            android:excludeFromRecents="true"
+154-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+157        <!--
+158            Service handling Google Sign-In user revocation. For apps that do not integrate with
+159            Google Sign-In, this service will never be started.
+160        -->
+161        <service
+161-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+162            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+162-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+163            android:exported="true"
+163-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+164            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+164-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+165            android:visibleToInstantApps="true" />
+165-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\Tehreem\.gradle\caches\transforms-3\9aedbb29e26aebfe4f0386d51416498e\transformed\jetified-play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+166
+167        <activity
+167-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehreem\.gradle\caches\transforms-3\fdc810b037aeac8099f8179662b49fcd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+168            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+168-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehreem\.gradle\caches\transforms-3\fdc810b037aeac8099f8179662b49fcd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehreem\.gradle\caches\transforms-3\fdc810b037aeac8099f8179662b49fcd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+170-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Tehreem\.gradle\caches\transforms-3\fdc810b037aeac8099f8179662b49fcd\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+171
+172        <meta-data
+172-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\242137642f12ea8a74c54a99763b5c1a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+173            android:name="com.google.android.gms.version"
+173-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\242137642f12ea8a74c54a99763b5c1a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+174            android:value="@integer/google_play_services_version" />
+174-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Tehreem\.gradle\caches\transforms-3\242137642f12ea8a74c54a99763b5c1a\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+175    </application>
+176
+177</manifest>
